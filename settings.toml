@@ -1,0 +1,9 @@
+[default]
+
+# see options here: https://bootswatch.com
+flask_admin_swatch = 'simplex'
+
+[development]
+
+sqlalchemy_track_modifications = true
+debug_tb_intercept_redirects = false
