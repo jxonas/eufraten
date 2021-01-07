@@ -1,5 +1,7 @@
 [default]
 
+sqlalchemy_database_uri = 'sqlite:///app.db'
+
 # see options here: https://bootswatch.com
 flask_admin_swatch = 'simplex'
 
