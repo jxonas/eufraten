@@ -10,9 +10,10 @@ flask = "*"
 flask-admin = "*"
 flask-migrate = "*"
 flask-sqlalchemy = "*"
-flask-security = "*"
 email-validator = "*"
 dynaconf = "*"
+flask-security-too = "*"
+flask-debugtoolbar = "*"
 
 [requires]
 python_version = "3.7"

@@ -5,6 +5,27 @@ sqlalchemy_database_uri = 'sqlite:///app.db'
 # see options here: https://bootswatch.com
 flask_admin_swatch = 'simplex'
 
+# Flask-Security config
+security_url_prefix = "/"
+security_password_hash = "pbkdf2_sha512"
+security_password_salt = ""
+
+# Flask-Security URLs, overridden because they don't put a / at the end
+security_login_url = "/login/"
+security_logout_url = "/logout/"
+security_register_url = "/register/"
+security_change_url = "/change/"
+
+security_post_login_view = "/"
+security_post_logout_view = "/"
+security_post_register_view = "/"
+
+# Flask-Security features
+security_registerable = false
+security_changeable = true
+security_send_register_email = false
+security_send_password_change_email = false
+
 [development]
 
 sqlalchemy_track_modifications = true

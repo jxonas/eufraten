@@ -25,3 +25,4 @@ htmlcov/
 *,cover
 
 app.db
+/.secrets.toml
